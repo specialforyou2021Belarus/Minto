@@ -1,0 +1,375 @@
+body {
+	margin: 0;
+}
+
+.content {
+	max-width: 1018px;
+	margin: 0 auto;
+}
+
+header {
+	border-top: 8px solid #a292b3 ;
+	padding: 20px 0;
+}
+
+header .content {
+	position: relative;
+}
+
+.menu {
+	display: inline;
+    position: absolute;
+    right: 0;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.menua li a {
+	text-decoration: none;
+}
+	 
+.home-icon:before, .about-us-icon:before, .services-icon:before, .contact-us-icon:before{
+	content: '';
+	background-image: no-repeat;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.home-icon:before {
+	background-image: url('../images/home.jpg');
+	width: 21px;
+	height: 20px;
+}
+
+.about-us-icon:before {
+	background-image: url('../images/aus.jpg');
+	width: 18px;
+	height: 19px;
+}
+
+.services-icon:before {
+	background-image: url('../images/services.jpg');
+	width: 20px;
+	height: 20px;
+}
+
+.contact-us-icon:before {
+	background-image: url('../images/contact.jpg');
+	width: 20px;
+	height: 14px;
+}
+
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #a292b3;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ .menu {
+    display: inline;
+}
+
+.slider > div{
+	position: relative;
+}
+
+.slider-banner {
+	width: 1300px; 
+	height: 485px;
+}
+
+.banner-image {
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.banner-image-theme {
+	font-family: StRydeRegular;
+	color:  #ffffff;
+	font-size: 117px;
+	font-weight: 400;
+	line-height: 36px;
+	text-shadow: 3px 5px 0px rgba(130, 105, 157, 0.75);
+}
+
+.banner-image-text {
+	font-family: Arial;
+	color:  #ffffff;
+	font-size: 31px;
+	font-weight: 400;
+	line-height: 36px;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+hr {
+	max-width: 950px;
+	color:  #838383;
+}
+
+.text-under-banner {
+	font-family: 'Segoe UI';
+	color:  #494848;
+	font-size: 23px;
+	font-style: italic;
+	line-height: 36px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.first-letter {
+	font-family: 'Segoe UI';
+	color:  #82699d;
+	font-size: 23px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 36px;
+}
+
+.round-picture {
+	width: 271px;
+	height: 271px;
+	float: left;
+	margin: 2px 50px 0px 0;
+	border-radius: 50%;
+    border: 8px solid #DDDDDD;
+    box-shadow: 0 0 0px 8px #F0F0F0;
+}
+
+.theme {
+	font-family: 'Segoe UI';
+	color:  #505051;
+	font-size: 31px;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: left;
+}
+
+.text-picture {
+	font-family: 'Segoe UI';
+	color:  #838383;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.text-around-picture {
+	margin: 15px;
+}
+
+.open-more {
+	text-decoration: none;
+	font-family: 'Segoe UI';
+	color:  #82699d;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 36px;
+	float: right;
+	margin: 0 40px;
+}
+
+.open-more:after {
+	content: "";
+	background-image: url(../images/shape.jpg);
+	background-color:  #82699d;
+	width: 11px;
+	height: 7px;
+	top: 0;
+}
+
+.friendly-sites {
+	font-family: 'Segoe UI';
+	color:  #000000;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: left;
+	background: white;
+	padding-right: 5px;
+}
+
+.background-line{
+	content: "";
+	margin: 65px 0 40px;	
+	position: relative;
+}
+
+.background-line:after {
+	content:"";
+	background-image: url(../images/line.jpg);	
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 18px;
+}
+
+.partners{
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+}
+
+.partners div{
+	padding: 10px 3.5%;
+	border: 1px solid #D3D3D3;
+	background: #FFFAFA;	
+}
+
+.partners a:last-child{
+	border-right: none;
+}
+
+.text-footer{
+	height: 50px;
+	margin: 25px 0 0;
+}
+
+footer .content{
+	display: flex;
+	justify-content: space-between;
+	margin: 85px 0 0;
+	padding: 0 0 0 165px;
+}
+
+.all-rights{
+	font-family: 'Segoe UI';
+	color:  #454242;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 36px;
+	display: inline-block;
+}
+
+.facebook{
+	content:"";
+	background-image: url(../images/facebook.jpg);
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 40px;
+	margin-right: 15px;
+}
+
+.twitter{
+	content:"";
+	background-image: url(../images/twitter.jpg);
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 40px;
+}
+
+.social-networks{
+	    margin: 25px 0;
+}
+
+footer{
+	border-bottom: 8px solid #a292b3;
+	background: #D3D3D3;
+}
+
+@media screen and (max-width: 1031px) {
+   .partners{
+   		display: grid;
+   		text-align: center;
+   		width: 100%;
+   }
+
+   .partners div{
+   		padding: 10px 3.5%;
+		border: 1px solid #D3D3D3;	
+   }
+} 
+
+@media screen and (max-width: 760px) {
+	.content{
+		padding: 0 5px; 
+	}
+
+	.logo{
+		display: block;
+    	margin: 0 auto;
+	}
+
+ 	.menu{
+        position: static;
+        display: none;
+        padding: 0;
+        margin: auto 0;
+    }
+
+    .menu li{
+        border-bottom: 2px solid #fff;
+	    padding: 10px 0;
+    }
+
+    .menu li, .menu li a {
+        width: 100%;
+        text-decoration-line: none;
+        background: #a292b3;
+        color: #fff;
+        text-align: center;
+    }
+
+    
+
+    .home-icon:before, .about-us-icon:before, .services-icon:before, .contact-us-icon:before {
+    	background-image: none;
+    	margin: auto 0;
+    }
+
+    .show-menu {
+        display:block;
+	    margin: 20px 0 0;
+	    border-bottom: 2px solid #fff;
+    }
+
+    .home-icon:hover, .about-us-icon:hover, .services-icon:hover, .contact-us-icon:hover {
+    	background: #81699D;
+
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+    	display: block;
+    }
+
+    div .round-picture{
+    	display: block;
+	    margin: 0 auto;
+	    float: none;
+	}
+
+	.text-picture{
+		text-align: justify;
+	}
+
+    .text-under-banner br {
+    	display: none;
+    }
+
+	footer .content {
+		padding: 0 10px 0;
+    }
+
+    .social-networks {
+    	display:  block;
+    	margin: 25px 10px;
+    }
+}
